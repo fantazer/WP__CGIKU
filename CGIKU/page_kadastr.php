@@ -6,6 +6,9 @@ Template Name: kadastr
 
 <? get_header(); ?>
 
+<?
+	include('module/bread.php');
+?>
 
 <div class="main-cont">
 	<div class="content">
@@ -37,9 +40,11 @@ Template Name: kadastr
       */?>
 
 
+
 				<?
 					$args = array(
 						'menu' => 'КАДАСТРОВЫЕ РАБОТЫ',
+						'menu_class'=> 'menu__list',
 					);
 					wp_nav_menu($args);
 				?>

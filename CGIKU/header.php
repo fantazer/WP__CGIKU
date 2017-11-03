@@ -87,56 +87,36 @@
 								<use xlink:href="#menu"></use>
 							</svg>
 						</div>
-						<div class="menu-wrap">
-							<div class="menu">
-								<div class="menu-el">
-									<a href="/">
-										<span>Главная</span>
-									</a>
-								</div>
-								<div class="menu-el menu-el-service">
-									<a href="/uslugi/">
-										<span>Услуги
-											<svg class="icon">
-												<use xlink:href="#arrow-down"></use>
-											</svg>
-										</span>
-									</a>
-									<div class="menu-el__sub">
-										<a class="menu-el__sub-el" href="/kadastrovy-e-raboty/">Кадастровые работы</a>
-										<a class="menu-el__sub-el" href="/geodezicheskie-raboty/">Геодезические работы</a>
-									</div>
-								</div>
-								<?
-                  $args = array(
-                  'cat'=> 3,
-                  'order' => 'ASC'
-                  );
+						<?
+								$args = array(
+									'menu' => 'Главное меню',
+									'menu_class'=> '',
+									'container'=> 'div',
+									'container_class' => 'menu-wrap', // css-класс блока
+									'items_wrap'       => '<ul class="menu">%3$s</ul>',
+									'depth' => 0,
+									//'walker' => new Description_Walker
+								);
+								wp_nav_menu($args);
 
-                  query_posts($args);
-                  while (have_posts()) : the_post();
-                  printf('
-										<div class="menu-el">
-											<a href="%s">
-												<span>%s</span>
-											</a>
-										</div>
-                  
-                  ',get_permalink()
-                   ,get_the_title());
-                   endwhile;
-                   wp_reset_query();
-                 ?>
-                 <div class="menu-el menu-el--mark">
-									<a href="/aktsii-i-skidki/">
-										<span>Акции</span>
-									</a>
-								</div>
-							</div>
-						</div>
+						?>
 					</div>
 				</div>
 			</div>
 			<!--nav-end-->
 		</div>
 		<!--block header end-->
+
+		<?/*
+			$args = array(
+				'menu' => 'Главное меню',
+				'menu_class'=> '',
+				'container'=> 'div',
+				'container_class' => 'menu-wrap', // css-класс блока
+				'items_wrap'       => '<div class="menu">%3$s</div>',
+				'depth' => 0,
+				'walker' => new Description_Walker
+			);
+			wp_nav_menu($args);
+
+		*/?>

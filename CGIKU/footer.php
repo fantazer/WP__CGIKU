@@ -145,7 +145,7 @@
 							<script src = "<?php echo get_template_directory_uri();?>/js/combined.js" ></script>
 							<script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
 								<!-- Yandex.Metrika counter -->
-								<script type="text/javascript">
+								<!--<script type="text/javascript">
 									(function (d, w, c) {
 										(w[c] = w[c] || []).push(function () {
 											try {
@@ -178,12 +178,12 @@
 								<noscript>
 									<div><img src="https://mc.yandex.ru/watch/32012941" style="position:absolute; left:-9999px;" alt=""/>
 									</div>
-								</noscript>
+								</noscript>-->
 								<!-- /Yandex.Metrika counter -->
 
 
 								<!-- Bitrix24 -->
-								<script data-skip-moving="true">
+								<!--<script data-skip-moving="true">
 									(function (w, d, u, b) {
 										s = d.createElement('script');
 										r = (Date.now() / 1000 | 0);
@@ -192,7 +192,7 @@
 										h = d.getElementsByTagName('script')[0];
 										h.parentNode.insertBefore(s, h);
 									})(window, document, 'https://cdn.bitrix24.ru/b4671061/crm/site_button/loader_2_335640.js');
-								</script>
+								</script>-->
 								<!--/ Bitrix24 -->
 
 	</body>

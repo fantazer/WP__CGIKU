@@ -6,78 +6,30 @@
 			образование земельных участков
 		</div>
 		<div class="service">
-			<div class="service__el">
-				<div class="service__title">Уточнение границ земельного участка</div>
-				<div class="service__text">Если границы Вашего земельного участка не установлены, либо установлены, но с
-					точностью ниже нормативной – изготавливается межевой план по уточнению границ и (или) площади земельного
-					участка.
-				</div>
-				<div class="service__price">18 000 руб.</div>
-				<div class="service__get">
-					<div class="service__btn service__btn-more">Подробнее</div>
-					<div class="service__btn service__btn-get">Заказать</div>
-				</div>
-			</div>
-			<div class="service__el">
-				<div class="service__title">Уточнение границ земельного участка</div>
-				<div class="service__text">Если границы Вашего земельного участка не установлены, либо установлены, но с
-					точностью ниже нормативной – изготавливается межевой план по уточнению границ и (или) площади земельного
-					участка.
-				</div>
-				<div class="service__price">18 000 руб.</div>
-				<div class="service__get">
-					<div class="service__btn service__btn-more">Подробнее</div>
-					<div class="service__btn service__btn-get">Заказать</div>
-				</div>
-			</div>
-			<div class="service__el">
-				<div class="service__title">Уточнение границ земельного участка</div>
-				<div class="service__text">Если границы Вашего земельного участка не установлены, либо установлены, но с
-					точностью ниже нормативной – изготавливается межевой план по уточнению границ и (или) площади земельного
-					участка.
-				</div>
-				<div class="service__price">18 000 руб.</div>
-				<div class="service__get">
-					<div class="service__btn service__btn-more">Подробнее</div>
-					<div class="service__btn service__btn-get">Заказать</div>
-				</div>
-			</div>
-			<div class="service__el">
-				<div class="service__title">Уточнение границ земельного участка</div>
-				<div class="service__text">Если границы Вашего земельного участка не установлены, либо установлены, но с
-					точностью ниже нормативной – изготавливается межевой план по уточнению границ и (или) площади земельного
-					участка.
-				</div>
-				<div class="service__price">18 000 руб.</div>
-				<div class="service__get">
-					<div class="service__btn service__btn-more">Подробнее</div>
-					<div class="service__btn service__btn-get">Заказать</div>
-				</div>
-			</div>
-			<div class="service__el">
-				<div class="service__title">Уточнение границ земельного участка</div>
-				<div class="service__text">Если границы Вашего земельного участка не установлены, либо установлены, но с
-					точностью ниже нормативной – изготавливается межевой план по уточнению границ и (или) площади земельного
-					участка.
-				</div>
-				<div class="service__price">18 000 руб.</div>
-				<div class="service__get">
-					<div class="service__btn service__btn-more">Подробнее</div>
-					<div class="service__btn service__btn-get">Заказать</div>
-				</div>
-			</div>
-			<div class="service__el">
-				<div class="service__title">Уточнение границ земельного участка</div>
-				<div class="service__text">Если границы Вашего земельного участка не установлены, либо установлены, но с
-					точностью ниже нормативной – изготавливается межевой план по уточнению границ и (или) площади земельного
-					участка.
-				</div>
-				<div class="service__price">18 000 руб.</div>
-				<div class="service__get">
-					<div class="service__btn service__btn-more">Подробнее</div>
-					<div class="service__btn service__btn-get">Заказать</div>
-				</div>
-			</div>
+			 <?
+			 	$args = array(
+			 	'cat'=> 2,
+			 	'post__not_in'=> array(227),
+			 	//'posts_per_page' => 3,
+			 	'order' => 'ASC'
+			 	);
+			 ?>
+			 <? query_posts($args);?>
+			 <? while (have_posts()) : the_post(); ?>
+			 		<!-- can write -->
+			 		<div class="service__el">
+						<div class="service__title"><?=get_the_title(); ?></div>
+						<div class="service__text"><?=wp_trim_words( get_the_content(), 24, ' ...' );?>
+						</div>
+						<div class="service__price">18 000 руб.</div>
+						<div class="service__get">
+							<a  href="<?=get_permalink(); ?>" class="service__btn service__btn-more">Подробнее</a>
+							<div class="service__btn service__btn-get modal-get" data-modal="order">Заказать</div>
+						</div>
+					</div>
+			 		<!-- can write -->
+			 <? endwhile; ?>
+			 <? wp_reset_query();?>
 		</div>
 	</div>
 </div>

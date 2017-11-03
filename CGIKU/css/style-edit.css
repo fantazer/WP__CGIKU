@@ -1,1 +1,19 @@
-/* ======= PLS add your style her =======*/
+.menu__list {
+  padding: 0;
+}
+.menu__list a {
+  padding: 0;
+  text-transform: initial;
+  text-align: left;
+}
+.menu__list .sub-menu {
+  padding-left: 20px;
+  width: 100%;
+  position: static;
+  display: block;
+}
+.table {
+  min-width: 290px;
+  display: block;
+  overflow: auto;
+}

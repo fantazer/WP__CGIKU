@@ -5,6 +5,11 @@ Template Name: geodez
 ?>
 
 <? get_header(); ?>
+
+<?
+	include('module/bread.php');
+?>
+
 <div class="main-cont">
 	<div class="content">
     <? include('module/toolbar.php'); ?>

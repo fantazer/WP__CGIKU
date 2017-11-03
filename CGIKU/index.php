@@ -1,7 +1,5 @@
 <?get_header();?>
 
-
-
 		<div class="baner">
 			<div class="main-cont">
 				<div class="slider-header-baner owl-carousel">
@@ -48,7 +46,7 @@
 								<div class="header-baner__price-el header-baner__price--false">15 000 р.</div>
 							</div>
 							<div class="header__get">
-								<div class="header__btn header__btn-more">Подробнее</div>
+								<a href="/oformlenie-tehnicheskogo-plana-doma/" class="header__btn header__btn-more">Подробнее</a>
 								<div class="header__btn header__btn-get modal-get" data-modal="order">Заказать</div>
 							</div>
 						</div>
@@ -123,7 +121,7 @@
 						<div class="category__el--title">Кадастровые работы</div>
 						<div class="category__el-info">
 							<a class="category__el--item" href="#">Межевой план</a>
-							<a class="category__el--item" href="#">Технический план</a>
+							<a class="category__el--item" href="/oformlenie-tehnicheskogo-plana-doma/">Технический план дома</a>
 							<a class="category__el--item" href="#">Уточнение границ участка </a>
 						</div>
 						<a class="category__el-get" href="#">Eще услуги</a>
@@ -143,6 +141,7 @@
 				</div>
 			</div>
 		</div>
+
 		<!--about-->
 		<div class="about wow fadeIn" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/our-gray.jpg');" data-wow-duration="1.75s" data-wow-delay="1s">
 			<div class="main-cont">
@@ -218,9 +217,8 @@
 			</div>
 		</div>
 
+		<!--service-list-->
 		<?include('module/service-list.php');?>
-
-
 
 		<!--step work-->
 		<div class="section section-step" id="step">
@@ -303,7 +301,5 @@
 		</div>
 
 		<?include('module/news-list.php');?>
-
-
 
 <?get_footer();?>
