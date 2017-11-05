@@ -17,3 +17,11 @@
   display: block;
   overflow: auto;
 }
+.content {
+  margin-bottom: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .content {
+    margin-bottom: 30px;
+  }
+}

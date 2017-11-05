@@ -1307,19 +1307,22 @@ button {
 .menu-el--active {
   background: #236884;
 }
-.nav-phone-el {
+.nav-phone-el,
+.footer-info__phone {
   font-weight: bold;
   font-size: 20px;
   display: block;
   color: #111;
 }
 @media only screen and (min-width: 1200px) {
-  .nav-phone-el .icon {
+  .nav-phone-el .icon,
+  .footer-info__phone .icon {
     display: none;
   }
 }
 @media only screen and (max-width: 1200px) {
-  .nav-phone-el {
+  .nav-phone-el,
+  .footer-info__phone {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1335,17 +1338,20 @@ button {
   }
 }
 @media only screen and (max-width: 1024px) {
-  .nav-phone-el {
+  .nav-phone-el,
+  .footer-info__phone {
     font-size: 16px;
     margin-left: 20px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .nav-phone-el {
+  .nav-phone-el,
+  .footer-info__phone {
     font-size: 14px;
   }
 }
-.nav-phone-el .icon {
+.nav-phone-el .icon,
+.footer-info__phone .icon {
   width: 20px;
   height: 20px;
   fill: #fff;
@@ -1900,13 +1906,8 @@ body {
   margin-right: 40px;
   margin-bottom: 40px;
   margin-bottom: 40px;
-  padding: 80px 40px;
+  padding: 40px;
   border: 1px solid #efeded;
-}
-@media only screen and (max-width: 1200px) {
-  .service__el {
-    padding: 80px 30px;
-  }
 }
 @media only screen and (max-width: 1024px) {
   .service__el {
@@ -2115,7 +2116,7 @@ body {
           transition: all 0.4s;
   position: fixed;
   z-index: 15;
-  bottom: 5%;
+  bottom: 20%;
   right: 5%;
   border: 1px solid #dfdfdf;
   width: 64px;
@@ -3952,6 +3953,116 @@ body {
 }
 #menu-kadastrovy-e-raboty {
   display: block;
+}
+.footer .menu-el {
+  width: auto;
+}
+@media only screen and (max-width: 768px) {
+  .footer .menu-el {
+    width: 100%;
+    text-align: center !important;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -webkit-flex-shrink: 1;
+        -ms-flex-negative: 1;
+            flex-shrink: 1;
+    -webkit-flex-basis: 100px;
+        -ms-flex-preferred-size: 100px;
+            flex-basis: 100px;
+  }
+  .footer .menu-el a {
+    font-size: 10px;
+  }
+}
+.footer .menu-el:first-child {
+  text-align: left;
+}
+.footer .menu-el:last-child {
+  text-align: right;
+}
+.footer .menu-el--mark {
+  background: none;
+  font-weight: normal;
+}
+.footer-menu {
+  border-bottom: 1px solid #fdf5f5;
+  border-top: 1px solid #fdf5f5;
+}
+@media only screen and (max-width: 768px) {
+  .footer-menu .menu-wrap {
+    display: block;
+    position: static;
+    top: initial;
+    left: initial;
+  }
+}
+.footer-info {
+  padding: 20px 0;
+}
+.footer-info-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .footer-info-wrap {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-info__phone {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-info__logo {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-info__logo .logo--full {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: block;
+    width: 150px;
+  }
 }
 @-webkit-keyframes slideInDown {
   from {
