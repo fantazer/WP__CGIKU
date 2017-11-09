@@ -372,7 +372,7 @@ $(window).load(function () {
 {
 	'use strict';
 
-	var file  = '/wp-content/themes/CGIKU/img/pack.html',
+	var file  = 'http://kuznetcov.org/LAND/wp-content/themes/CGIKU/img/pack.html',
 		revision = 1;
 
 	if( !document.createElementNS || !document.createElementNS( 'http://www.w3.org/2000/svg', 'svg' ).createSVGRect )

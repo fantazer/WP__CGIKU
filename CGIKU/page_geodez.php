@@ -30,6 +30,9 @@ Template Name: geodez
 		</div>
 	</div>
 </div>
+
+<?include('module/sertificate.php');?>
+<?include('module/customers.php');?>
 <? get_footer(); ?>
 
 

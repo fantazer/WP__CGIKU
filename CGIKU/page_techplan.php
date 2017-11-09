@@ -21,6 +21,7 @@ Template Name: techplan
 				</div>
 			</div>
 		</div>
+
 		<!--why you need this-->
 		<div class="section section--why">
 			<div class="main-cont">
@@ -40,6 +41,7 @@ Template Name: techplan
 				</div>
 			</div>
 		</div>
+
 
 		<!--from begin-->
 		<div class="section section--start" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/lp-5.jpg');">
@@ -64,83 +66,7 @@ Template Name: techplan
 			</div>
 		</div>
 
-		<!--need doc-->
-		<div class="section section--doc">
-			<div class="main-cont">
-				<div class="section-title">Какие нужны документы?</div>
-				<div class="section-title-sub">уточнение, исправление реестровой ошибки, объединение, раздел, перераспределение, образование земельных участков</div>
-				<div class="doc">
-					<div class="doc__el">
-						<div class="doc__icon">
-							<svg class="icon">
-								<use xlink:href="#attest"></use>
-							</svg>
-						</div>
-						<div class="doc__title">Свидетельство о праве собственности на земельный участок,</div>
-						<div class="doc__text">В связи с продлением дачной амнистии до 01.03.2018 г. получение разрешения на ввод постройки ИЖС и ЛПХ в эксплуатацию. Также не требуется получения разрешения на строительство</div>
-					</div>
-					<div class="doc__el">
-						<div class="doc__icon">
-							<svg class="icon">
-								<use xlink:href="#doc"></use>
-							</svg>
-						</div>
-						<div class="doc__title">Разрешение на строительство</div>
-						<div class="doc__text">В связи с продлением дачной амнистии до 01.03.2018 г. получение разрешения на ввод постройки ИЖС и ЛПХ в эксплуатацию. Также не требуется получения разрешения на строительство</div>
-					</div>
-					<div class="doc__el">
-						<div class="doc__icon">
-							<svg class="icon">
-								<use xlink:href="#plan"></use>
-							</svg>
-						</div>
-						<div class="doc__title">Проектная документация на дом</div>
-						<div class="doc__text">В связи с продлением дачной амнистии до 01.03.2018 г. получение разрешения на ввод постройки ИЖС и ЛПХ в эксплуатацию. Также не требуется получения разрешения на строительство</div>
-					</div>
-					<div class="doc__el">
-						<div class="doc__icon">
-							<svg class="icon">
-								<use xlink:href="#case"></use>
-							</svg>
-						</div>
-						<div class="doc__title">Паспортные данные собственника земельного участка</div>
-						<div class="doc__text">В связи с продлением дачной амнистии до 01.03.2018 г. получение разрешения на ввод постройки ИЖС и ЛПХ в эксплуатацию. Также не требуется получения разрешения на строительство</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!--contact-form-->
-		<div class="contact-form">
-			<div class="section-title">Оставьте свою заявку</div>
-			<div class="section-title-sub">Оформите обращение с помощью этой формы, мы перезвоним
-				<br>Вам и проконсультируем по любому Вашему вопросу совершенно бесплатно!</div>
-			<div class="main-cont">
-				<form class="validate-form" action="javascript:void(null);">
-					<div class="input-row">
-						<input class="input" type="text" name="name" placeholder="Ваше имя" />
-					</div>
-					<div class="input-row">
-						<input class="input" type="text" name="phone" placeholder="Ваш телефон" />
-					</div>
-					<!--.input-rowtextarea(name="info", cols="30", rows="5" placeholder="Сообщение").input
-			-->
-					<!--.agree-row
-			.check-el
-				label.style-label.style-label--checkbox
-					input(type="checkbox" name="agree").sytle-input
-					.sytle-input-element
-						+icon("checked","icon-check")
-					.sytle-input-text=text
-			.agree-row__text Согласен с
-				a(href="#") условиями обработки персональных данных
-			-->
-					<input class="modal-send" type="submit" value="Отправить заявку" />
-				</form>
-			</div>
-		</div>
-
-		<!--price-->
+			<!--price-->
 		<div class="section section--price wow fadeIn" data-wow-duration="2s" data-wow-delay=".75s">
 			<div class="main-cont">
 				<div class="section-title">Стоимость наших работ</div>
@@ -234,8 +160,85 @@ Template Name: techplan
 			</div>
 		</div>
 
-		<!--service-->
-		<div class="section section--calc">
+		<!--need doc-->
+		<div class="section section--doc">
+			<div class="main-cont">
+				<div class="section-title">Какие нужны документы?</div>
+				<div class="section-title-sub">уточнение, исправление реестровой ошибки, объединение, раздел, перераспределение, образование земельных участков</div>
+				<div class="doc">
+					<div class="doc__el">
+						<div class="doc__icon">
+							<svg class="icon">
+								<use xlink:href="#attest"></use>
+							</svg>
+						</div>
+						<div class="doc__title">Свидетельство о праве собственности на земельный участок,</div>
+						<div class="doc__text">В связи с продлением дачной амнистии до 01.03.2018 г. получение разрешения на ввод постройки ИЖС и ЛПХ в эксплуатацию. Также не требуется получения разрешения на строительство</div>
+					</div>
+					<div class="doc__el">
+						<div class="doc__icon">
+							<svg class="icon">
+								<use xlink:href="#doc"></use>
+							</svg>
+						</div>
+						<div class="doc__title">Разрешение на строительство</div>
+						<div class="doc__text">В связи с продлением дачной амнистии до 01.03.2018 г. получение разрешения на ввод постройки ИЖС и ЛПХ в эксплуатацию. Также не требуется получения разрешения на строительство</div>
+					</div>
+					<div class="doc__el">
+						<div class="doc__icon">
+							<svg class="icon">
+								<use xlink:href="#plan"></use>
+							</svg>
+						</div>
+						<div class="doc__title">Проектная документация на дом</div>
+						<div class="doc__text">В связи с продлением дачной амнистии до 01.03.2018 г. получение разрешения на ввод постройки ИЖС и ЛПХ в эксплуатацию. Также не требуется получения разрешения на строительство</div>
+					</div>
+					<div class="doc__el">
+						<div class="doc__icon">
+							<svg class="icon">
+								<use xlink:href="#case"></use>
+							</svg>
+						</div>
+						<div class="doc__title">Паспортные данные собственника земельного участка</div>
+						<div class="doc__text">В связи с продлением дачной амнистии до 01.03.2018 г. получение разрешения на ввод постройки ИЖС и ЛПХ в эксплуатацию. Также не требуется получения разрешения на строительство</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--contact-form-->
+		<div class="contact-form">
+			<div class="section-title">Оставьте свою заявку</div>
+			<div class="section-title-sub">Оформите обращение с помощью этой формы, мы перезвоним
+				<br>Вам и проконсультируем по любому Вашему вопросу совершенно бесплатно!</div>
+			<div class="main-cont">
+				<form class="validate-form" action="javascript:void(null);">
+					<div class="input-row">
+						<input class="input" type="text" name="name" placeholder="Ваше имя" />
+					</div>
+					<div class="input-row">
+						<input class="input" type="text" name="phone" placeholder="Ваш телефон" />
+					</div>
+					<!--.input-rowtextarea(name="info", cols="30", rows="5" placeholder="Сообщение").input
+			-->
+					<!--.agree-row
+			.check-el
+				label.style-label.style-label--checkbox
+					input(type="checkbox" name="agree").sytle-input
+					.sytle-input-element
+						+icon("checked","icon-check")
+					.sytle-input-text=text
+			.agree-row__text Согласен с
+				a(href="#") условиями обработки персональных данных
+			-->
+					<input class="modal-send" type="submit" value="Отправить заявку" />
+				</form>
+			</div>
+		</div>
+
+		<?include('module/advant.php');?>
+		<!--calc-->
+		<!--<div class="section section--calc">
 			<div class="main-cont">
 				<div class="section-title">Выберите площадь дома</div>
 				<div class="section-title-sub">Подача в Росреестр – плюс 3 000 руб. к стоимости работ.</div>
@@ -250,7 +253,7 @@ Template Name: techplan
 					<div class="calc-text">Цена услуги</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 
 		<!--customers-->
 		<?include('module/customers.php');?>

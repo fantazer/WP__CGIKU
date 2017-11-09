@@ -6,7 +6,7 @@
 					<div class="header-baner">
 						<div class="header-baner__slogan">
 							<div class="header-baner__text">Технический план дома</div>
-							<div class="header-baner__text--sub">Площадь до 100 кв.м Подача в Росреестр – плюс 3 000 руб. к стоимости работ.</div>
+							<!--<div class="header-baner__text--sub">Площадь до 100 кв.м Подача в Росреестр – плюс 3 000 руб. к стоимости работ.</div>-->
 							<div class="header-check">
 								<div class="header-check-el">
 									<div class="header-check-ico">
@@ -45,8 +45,11 @@
 								<div class="header-baner__price-el header-baner__price--true">14 000 р.</div>
 								<div class="header-baner__price-el header-baner__price--false">15 000 р.</div>
 							</div>
+							<div class="header-baner__price-info">
+								<span>Подача в Росреестр – плюс 3 000 руб. к стоимости работ.</span>
+							</div>
 							<div class="header__get">
-								<a href="/oformlenie-tehnicheskogo-plana-doma/" class="header__btn header__btn-more">Подробнее</a>
+								<a href="oformlenie-tehnicheskogo-plana-doma/" class="header__btn header__btn-more">Подробнее</a>
 								<div class="header__btn header__btn-get modal-get" data-modal="order">Заказать</div>
 							</div>
 						</div>
@@ -57,7 +60,7 @@
 					<div class="header-baner">
 						<div class="header-baner__slogan">
 							<div class="header-baner__text">Межевание участка</div>
-							<div class="header-baner__text--sub">Площадь до 8 сот.Подача в Росреестр – плюс 3 000 руб. к стоимости работ.</div>
+							<!--<div class="header-baner__text--sub">Площадь до 8 сот.Подача в Росреестр – плюс 3 000 руб. к стоимости работ.</div>-->
 							<div class="header-check">
 								<div class="header-check-el">
 									<div class="header-check-ico">
@@ -96,6 +99,9 @@
 								<div class="header-baner__price-el header-baner__price--true">14 000 р.</div>
 								<div class="header-baner__price-el header-baner__price--false">15 000 р.</div>
 							</div>
+							<div class="header-baner__price-info">
+								<span>Подача в Росреестр – плюс 3 000 руб. к стоимости работ.</span>
+							</div>
 							<div class="header__get">
 								<div class="header__btn header__btn-more">Подробнее</div>
 								<div class="header__btn header__btn-get modal-get" data-modal="order">Заказать</div>
@@ -108,6 +114,7 @@
 				</div>
 			</div>
 		</div>
+
 		<!--service two column-->
 		<div class="section section--list">
 			<div class="main-cont">
@@ -121,10 +128,10 @@
 						<div class="category__el--title">Кадастровые работы</div>
 						<div class="category__el-info">
 							<a class="category__el--item" href="#">Межевой план</a>
-							<a class="category__el--item" href="/oformlenie-tehnicheskogo-plana-doma/">Технический план дома</a>
+							<a class="category__el--item" href="oformlenie-tehnicheskogo-plana-doma/">Технический план дома</a>
 							<a class="category__el--item" href="#">Уточнение границ участка </a>
 						</div>
-						<a class="category__el-get" href="#">Eще услуги</a>
+						<a class="category__el-get" href="/uslugi/">Eще услуги</a>
 					</div>
 					<div class="category__el">
 						<div class="category__el--img">
@@ -136,7 +143,7 @@
 							<a class="category__el--item" href="#">Топографическая съемка</a>
 							<a class="category__el--item" href="#">Кадастровая съемка </a>
 						</div>
-						<a class="category__el-get" href="#">Eще услуги</a>
+						<a class="category__el-get" href="/uslugi/">Eще услуги</a>
 					</div>
 				</div>
 			</div>
@@ -159,63 +166,7 @@
 
 		<?include('module/sertificate.php');?>
 
-		<!--advant-->
-		<div class="section section--advant wow fadeIn" data-wow-duration="2s" data-wow-delay=".75s">
-			<div class="section-title">Наши преимущества</div>
-			<div class="main-cont">
-				<div class="advant">
-					<div class="advant-info">
-						<div class="advant-info__el">
-							<div class="advant-info__ico">
-								<svg class="icon">
-									<use xlink:href="#doc"></use>
-								</svg>
-							</div>
-							<div class="advant-info__cont">
-								<div class="advant-info__title">Точнее не бывает!</div>
-								<div class="advant-info__text">Измерение площади участка рулеткой даёт погрешность в десятки квадратных метров.</div>
-							</div>
-						</div>
-						<div class="advant-info__el">
-							<div class="advant-info__ico">
-								<svg class="icon">
-									<use xlink:href="#plan"></use>
-								</svg>
-							</div>
-							<div class="advant-info__cont">
-								<div class="advant-info__title">Работы «под ключ»</div>
-								<div class="advant-info__text">Стоять в очередях больше не нужно - мы все берем на себя!</div>
-							</div>
-						</div>
-						<div class="advant-info__el">
-							<div class="advant-info__ico">
-								<svg class="icon">
-									<use xlink:href="#time"></use>
-								</svg>
-							</div>
-							<div class="advant-info__cont">
-								<div class="advant-info__title">Выезд сразу</div>
-								<div class="advant-info__text">Стоять в очередях больше не нужно - мы все берем на себя!</div>
-							</div>
-						</div>
-						<div class="advant-info__el">
-							<div class="advant-info__ico">
-								<svg class="icon">
-									<use xlink:href="#money"></use>
-								</svg>
-							</div>
-							<div class="advant-info__cont">
-								<div class="advant-info__title">Консультации — 0 рублей</div>
-								<div class="advant-info__text">Стоять в очередях больше не нужно - мы все берем на себя!</div>
-							</div>
-						</div>
-					</div>
-					<div class="advant-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/instr.jpg" alt="" />
-					</div>
-				</div>
-			</div>
-		</div>
+		<?include('module/advant.php');?>
 
 		<!--service-list-->
 		<?include('module/service-list.php');?>

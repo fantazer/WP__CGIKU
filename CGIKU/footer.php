@@ -39,7 +39,7 @@
 				</div>
 				<div class="contact-info">
 					<div class="map">
-						<!--<script text/javascript="text/javascript" charset="utf-8" async="async" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A104108c83896b1a6c1b544e50f3d690ee4df2f43b13730f0b9a6f0d5ead96cae&amp;amp;width=100%&amp;amp;height=400&amp;amp;lang=ru_RU&amp;amp;scroll=false"></script>-->
+						<script text/javascript="text/javascript" charset="utf-8" async="async" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A104108c83896b1a6c1b544e50f3d690ee4df2f43b13730f0b9a6f0d5ead96cae&amp;amp;width=100%&amp;amp;height=400&amp;amp;lang=ru_RU&amp;amp;scroll=false"></script>
 					</div>
 					<div class="contact-row-wrap">
 						<div class="contact-row">
