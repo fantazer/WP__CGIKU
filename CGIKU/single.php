@@ -162,8 +162,8 @@
 		</div>
 </div>
 
-<?include('module/sertificate.php');?>
-<?include('module/customers.php');?>
+<? include('module/sertificate.php');?>
+<? include('module/customers.php');?>
 
 
 <?get_footer();?>

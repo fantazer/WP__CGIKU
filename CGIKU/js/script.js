@@ -1,5 +1,13 @@
 $(document).ready(function(){
 
+	//smooth scroll
+	$(document).on('click', 'a[href^="#"]', function (event) {
+			event.preventDefault();
+			$('html, body').animate({
+					scrollTop: $($.attr(this, 'href')).offset().top - 50
+			}, 1500);
+	});
+	//smooth scroll===end
 
 	//range slider
   $(".calc-range").ionRangeSlider({
@@ -372,7 +380,7 @@ $(window).load(function () {
 {
 	'use strict';
 
-	var file  = 'http://kuznetcov.org/LAND/wp-content/themes/CGIKU/img/pack.html',
+	var file  = '/LAND/wp-content/themes/CGIKU/img/pack.html',
 		revision = 1;
 
 	if( !document.createElementNS || !document.createElementNS( 'http://www.w3.org/2000/svg', 'svg' ).createSVGRect )

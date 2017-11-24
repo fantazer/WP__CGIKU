@@ -44,16 +44,16 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/img/cert-8.jpg" alt=""/>
 				</a>
 			</div>
-			<div class="slider__el">
-				<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>/img/cert-9.jpg" rel="group-elemen">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/cert-9.jpg" alt=""/>
+			<!--<div class="slider__el">
+				<a class="fancybox" href="<?php /*echo get_template_directory_uri(); */?>/img/cert-9.jpg" rel="group-elemen">
+					<img src="<?php /*echo get_template_directory_uri(); */?>/img/cert-9.jpg" alt=""/>
 				</a>
 			</div>
 			<div class="slider__el">
-				<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>/img/cert-10.jpg" rel="group-elemen">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/cert-10.jpg" alt=""/>
+				<a class="fancybox" href="<?php /*echo get_template_directory_uri(); */?>/img/cert-10.jpg" rel="group-elemen">
+					<img src="<?php /*echo get_template_directory_uri(); */?>/img/cert-10.jpg" alt=""/>
 				</a>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </div>

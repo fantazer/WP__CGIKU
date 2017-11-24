@@ -38,7 +38,7 @@
 											<use xlink:href="#checked"></use>
 										</svg>
 									</div>
-									<div class="header-check-text">Выезд в тот же день</div>
+									<div class="header-check-text">Оперативный выезд на место</div>
 								</div>
 							</div>
 							<div class="header-baner__price">
@@ -49,12 +49,12 @@
 								<span>Подача в Росреестр – плюс 3 000 руб. к стоимости работ.</span>
 							</div>
 							<div class="header__get">
-								<a href="oformlenie-tehnicheskogo-plana-doma/" class="header__btn header__btn-more">Подробнее</a>
+								<a href="tehnicheskij-plan-zdaniya/" class="header__btn header__btn-more">Подробнее</a>
 								<div class="header__btn header__btn-get modal-get" data-modal="order">Заказать</div>
 							</div>
 						</div>
 						<div class="header-baner__img">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/baner-2.png" alt="" />
+							<img src="<?php echo get_template_directory_uri(); ?>/img/baner-5.png" alt="" />
 						</div>
 					</div>
 					<div class="header-baner">
@@ -108,7 +108,7 @@
 							</div>
 						</div>
 						<div class="header-baner__img">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/baner-1.png" alt="" />
+							<img src="<?php echo get_template_directory_uri(); ?>/img/baner-4.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -128,7 +128,7 @@
 						<div class="category__el--title">Кадастровые работы</div>
 						<div class="category__el-info">
 							<a class="category__el--item" href="#">Межевой план</a>
-							<a class="category__el--item" href="oformlenie-tehnicheskogo-plana-doma/">Технический план дома</a>
+							<a class="category__el--item" href="tehnicheskij-plan-zdaniya/">Технический план дома</a>
 							<a class="category__el--item" href="#">Уточнение границ участка </a>
 						</div>
 						<a class="category__el-get" href="/uslugi/">Eще услуги</a>
@@ -150,14 +150,18 @@
 		</div>
 
 		<!--about-->
-		<div class="about wow fadeIn" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/our-gray.jpg');" data-wow-duration="1.75s" data-wow-delay="1s">
+		<div class="about wow fadeIn" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/our-gray.png');" data-wow-duration="1.75s" data-wow-delay="1s">
 			<div class="main-cont">
 				<div class="about-cont">
 					<div class="about-cont__title">О нашей компании</div>
-					<div class="about-cont__text">Мы всегда ценим Ваше время. Для выполнения большего вида предоставляемых нами услуг от Вас не требуется никаких оригиналов правоустанавливающих и правоудостоверяющих документов!
-						<br>
-						<br>Вам достаточно выслать нам скан или фото таких документов по электронной почте. Наши специалисты проверят Ваши документы и свяжутся с Вами для дальнейшего сотрудничества. Мы так же можем выслать Вам коммерческое предложение заверенное подписью Генерального
-						директора и печатью организации.</div>
+					<div class="about-cont__text">
+						<p>Компания «Центр геодезических и кадастровых услуг» (ЦГиКУ) – это динамично развивающаяся организация, начавшая свою работу в 2012 году, основным профилем которой является выполнение кадастровых и геодезических работ. За время деятельности компании
+							нами выполнены работы более чем на 5000 объектах по всей России.</p>
+						<p>Мы являемся постоянными подрядчиками ПАО Сбербанк, АО «Мосводоканал», АО «Дон-Строй Инвест», ГУП «Московское имущество», ЦУМ, ГБУ МО «МОСАВТОДОР», АШАН, LIEBHERR и др., что подтверждается благодарственными письмами.</p>
+						<p>Наши сотрудники - выпускники ведущих профильных ВУЗов страны, таких как Московский государственный университет геодезии и картографии (МИИГАиК), Государственный университет по землеустройству (ГУЗ). Все наши кадастровые инженеры имеют Аттестаты
+							кадастровых инженеров и состоят в СРО, таких как А СРО «Кадастровые инженеры», А СРО «ОПКД».</p>
+						<p>Показатель качества выполняемых нами услуг – долгосрочные и взаимовыгодные отношения как с крупными компаниями, так и с частными лицами. Выбирая нас, Вы можете быть уверены в грамотном и оперативном решении поставленных задач!</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -167,9 +171,6 @@
 		<?include('module/sertificate.php');?>
 
 		<?include('module/advant.php');?>
-
-		<!--service-list-->
-		<?include('module/service-list.php');?>
 
 		<!--step work-->
 		<div class="section section-step" id="step">
@@ -250,6 +251,11 @@
 				</div>
 			</div>
 		</div>
+
+		<!--service-list-->
+		<?include('module/service-list.php');?>
+
+
 
 		<?include('module/news-list.php');?>
 
