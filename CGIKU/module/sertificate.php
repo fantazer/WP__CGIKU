@@ -5,6 +5,11 @@
 	<div class="main-cont">
 		<div class="slider-certificate owl-carousel">
 			<div class="slider__el">
+				<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>/img/cert-12.jpg" rel="group-elemen">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/cert-12.jpg" alt=""/>
+				</a>
+			</div>
+			<div class="slider__el">
 				<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>/img/cert-1.jpg" rel="group-elemen">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/cert-1.jpg" alt=""/>
 				</a>
@@ -44,16 +49,8 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/img/cert-8.jpg" alt=""/>
 				</a>
 			</div>
-			<!--<div class="slider__el">
-				<a class="fancybox" href="<?php /*echo get_template_directory_uri(); */?>/img/cert-9.jpg" rel="group-elemen">
-					<img src="<?php /*echo get_template_directory_uri(); */?>/img/cert-9.jpg" alt=""/>
-				</a>
-			</div>
-			<div class="slider__el">
-				<a class="fancybox" href="<?php /*echo get_template_directory_uri(); */?>/img/cert-10.jpg" rel="group-elemen">
-					<img src="<?php /*echo get_template_directory_uri(); */?>/img/cert-10.jpg" alt=""/>
-				</a>
-			</div>-->
+
+
 		</div>
 	</div>
 </div>

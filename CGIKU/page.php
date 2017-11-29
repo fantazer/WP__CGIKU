@@ -22,10 +22,16 @@ Template Name: service
 	</div>
 </div>
 
+<!--remove for some page-->
+<? if(!is_page(array(2133,2133,2125))){ ?>
+
 <? include('module/sertificate.php'); ?>
 <? include('module/customers.php'); ?>
-
 <? get_footer(); ?>
+
+<? } else {?>
+	<? get_footer('small'); ?>
+<? } ?>
 
 
 
