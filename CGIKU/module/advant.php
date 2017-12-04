@@ -1,57 +1,55 @@
-<!--advant-->
-<div class="section section--advant wow fadeIn" data-wow-duration="2s" data-wow-delay=".75s">
-    <div class="section-title">Наши преимущества</div>
-    <div class="main-cont">
-        <div class="advant">
-            <div class="advant-info">
-                <div class="advant-info__el">
-                    <div class="advant-info__ico">
-                        <svg class="icon">
-                            <use xlink:href="#doc"></use>
-                        </svg>
-                    </div>
-                    <div class="advant-info__cont">
-                        <div class="advant-info__title">Только профессионалы</div>
-                        <div class="advant-info__text">Штат аттестованных кадастровых инженеров. Лицензии СРО. Все работы выполняются нашими штатными специалистами.</div>
-                    </div>
-                </div>
-                <div class="advant-info__el">
-                    <div class="advant-info__ico">
-                        <svg class="icon">
-                            <use xlink:href="#plan"></use>
-                        </svg>
-                    </div>
-                    <div class="advant-info__cont">
-                        <div class="advant-info__title">Всегда в срок</div>
-                        <div class="advant-info__text">Мы работаем без посредников, поэтому Вы экономите свои средства и время.</div>
-                    </div>
-                </div>
-                <div class="advant-info__el">
-                    <div class="advant-info__ico">
-                        <svg class="icon">
-                            <use xlink:href="#time"></use>
-                        </svg>
-                    </div>
-                    <div class="advant-info__cont">
-                        <div class="advant-info__title">Кратчайшие сроки.</div>
-                        <div class="advant-info__text">Мы не тратим ваше время в пустую. Все вопросы решаются максимально оперативно.</div>
-                    </div>
-                </div>
-                <div class="advant-info__el">
-                    <div class="advant-info__ico">
-                        <svg class="icon">
-                            <use xlink:href="#money"></use>
-                        </svg>
-                    </div>
-                    <div class="advant-info__cont">
-                        <div class="advant-info__title">Оплата по факту</div>
-                        <div class="advant-info__text">Окончательный расчет производится по факту выполнения всех работ. Более 5000 выполненных объектов по Москве и Московской области. </div>
-                    </div>
-                </div>
-            </div>
-            <div class="advant-img">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/instr.jpg" alt="" />
-            </div>
-        </div>
-    </div>
-</div>
+<div class="section section-advance" id="advance">
+			<div class="main-cont">
+				<div class="section-title">Почему выбирают нас</div>
+				<div class="advance">
+					<div class="advance-el">
+						<div class="advance-icon">
+							<svg class="icon">
+								<use xlink:href="#attest"></use>
+							</svg>
+						</div>
+						<div class="advance-text">Штат аттестованных кадастровых инженеров. Лицензии СРО.</div>
+					</div>
+					<div class="advance-el">
+						<div class="advance-icon">
+							<svg class="icon">
+								<use xlink:href="#time"></use>
+							</svg>
+						</div>
+						<div class="advance-text">Оперативность решения вопросов.</div>
+					</div>
+					<div class="advance-el">
+						<div class="advance-icon">
+							<svg class="icon">
+								<use xlink:href="#worker"></use>
+							</svg>
+						</div>
+						<div class="advance-text">Все работы выполняются нашими штатными специалистами</div>
+					</div>
+					<div class="advance-el">
+						<div class="advance-icon">
+							<svg class="icon">
+								<use xlink:href="#money"></use>
+							</svg>
+						</div>
+						<div class="advance-text">Окончательный расчет производится по факту выполнения работ.</div>
+					</div>
+					<div class="advance-el">
+						<div class="advance-icon">
+							<svg class="icon">
+								<use xlink:href="#posred"></use>
+							</svg>
+						</div>
+						<div class="advance-text">Мы работаем без посредников, поэтому Вы экономите свои средства и время.</div>
+					</div>
+					<div class="advance-el">
+						<div class="advance-icon">
+							<svg class="icon">
+								<use xlink:href="#result"></use>
+							</svg>
+						</div>
+						<div class="advance-text">Более 1000 выполненных объектов по Москве и Московской области.</div>
+					</div>
+				</div>
+			</div>
+		</div>
