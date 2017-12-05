@@ -11,7 +11,7 @@ include('module/bread.php');
 			<h1>Страница не найдена</h1>
 			<p>К сожалению страница не найдена</p>
 			<a href="">Перейти на главную</a>
-			<img class="bxsh0" src="<?php echo get_template_directory_uri(); ?>/img/404.png">
+			<img class="bxsh0" src="<?php echo get_template_directory_uri(); ?>/img/404.gif">
 		</div>
 	</div>
 </div>

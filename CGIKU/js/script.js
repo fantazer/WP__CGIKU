@@ -378,7 +378,7 @@ $(window).load(function () {
 		 margin:20,
 		 autoHeight : true,
 		 dots: true,
-		 autoplay : true,
+		 autoplay : false,
 		 singleItem:true,
 		 loop:true,
 		 //animateOut: 'fadeOut',

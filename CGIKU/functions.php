@@ -1,5 +1,12 @@
 <?
 
+add_filter('navigation_markup_template', 'my_navigation_markup_template');
+function my_navigation_markup_template() {
+     return '
+     <nav class="navigation %1$s" role="navigation">
+         <div class="nav-links">%3$s</div>
+     </nav>';
+}
 
 remove_action( 'wp_head', 'wp_oembed_add_discovery_links' );
 remove_action( 'wp_head', 'wp_oembed_add_host_js' );

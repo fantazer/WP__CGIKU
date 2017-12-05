@@ -68,8 +68,8 @@
 										</div>
 									</div>
 									<div class="nav-phone">
-										<a class="nav-phone-el" href="tel:+7 (495) 514-84-13">+7 (495) 514-84-13</a>
-										<a class="nav-phone-el" href="tel:+7 (495) 514-84-13">+7 (495) 283-96-83</a>
+										<a class="nav-phone-el" href="tel:<?=get_field('phone-1', 'option');?>"><?=get_field('phone-1', 'option');?></a>
+										<a class="nav-phone-el" href="tel:<?=get_field('phone-2', 'option');?>"><?=get_field('phone-2', 'option');?></a>
 									</div>
 								</div>
 							</div>

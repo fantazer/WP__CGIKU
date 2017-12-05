@@ -1260,7 +1260,7 @@ button {
   }
 }
 .menu-el,
-.menu-item {
+.menu-wrap .menu-item {
   text-transform: uppercase;
   font-size: 14px;
   width: 100%;
@@ -1269,18 +1269,18 @@ button {
 }
 @media only screen and (max-width: 768px) {
   .menu-el,
-  .menu-item {
+  .menu-wrap .menu-item {
     width: 100%;
     text-align: center;
     border-top: 1px solid #f4f4f5;
   }
 }
 .menu-el:first-child,
-.menu-item:first-child {
+.menu-wrap .menu-item:first-child {
   padding-left: 0;
 }
 .menu-el a,
-.menu-item a {
+.menu-wrap .menu-item a {
   padding: 20px 10px;
   display: block;
   -webkit-transition: all 0.4s;
@@ -1288,19 +1288,19 @@ button {
 }
 @media only screen and (max-width: 1024px) {
   .menu-el a,
-  .menu-item a {
+  .menu-wrap .menu-item a {
     padding: 20px 0;
     font-size: 12px;
   }
 }
 @media only screen and (max-width: 768px) {
   .menu-el a,
-  .menu-item a {
+  .menu-wrap .menu-item a {
     padding: 15px 0;
   }
 }
 .menu-el a:hover,
-.menu-item a:hover {
+.menu-wrap .menu-item a:hover {
   background: #f7f7f7;
 }
 .menu-el__sub,
@@ -1647,7 +1647,7 @@ button {
   display: block;
   width: 100%;
 }
-.menu-item {
+.menu-wrap .menu-item {
   display: block;
 }
 .header-baner__price-info {
