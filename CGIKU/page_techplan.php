@@ -215,16 +215,24 @@
 		<?include('module/sertificate.php');?>
 
 		<!--need doc-->
-		<div class="section section--doc">
-			<div class="main-cont">
-				<div class="section-title">Часто задаваемые вопросы</div>
-				<?the_title('<h1>', '</h1>');?>
-			<?
-				the_content();
-			?>
-
+<div class="section section--news wow fadeIn" data-wow-duration="2s" data-wow-delay=".75s">
+	<div class="section-title">Часто задаваемые вопросы</div>
+	<div class="section-title-sub">Просто о сложном</div>
+	<? while( have_rows('questions') ): the_row(); ?>
+		<div class="questions__el">
+			<div class="questions__el-wrap">
+				<div class="questions__title"><? the_sub_field('name_questions'); ?></div>
+				<div class="questions__text">
+            <? the_sub_field('text_questions'); ?>
+				</div>
+				<div class="row-btn--center">
+					<a class="questions__el-get" href="<?= get_permalink(); ?>">Подробнее</a>
+				</div>
 			</div>
 		</div>
+  <? endwhile; ?>
+</div>
+<?include('module/contact-form.php');?>
 <? get_footer(); ?>
 
 

@@ -26,13 +26,11 @@ Template Name: service
 	//echo get_the_ID();
 ?>
 <? if(!is_page(array(2133,2125,2131))){ ?>
-<? include('module/sertificate.php'); ?>
-<? include('module/customers.php'); ?>
-<? get_footer(); ?>
-
-<? } else {?>
-	<? get_footer('small'); ?>
+	<? include('module/sertificate.php'); ?>
+	<? include('module/customers.php'); ?>
+	<? include('module/contact-form.php'); ?>
 <? } ?>
+<? get_footer()?>
 
 
 

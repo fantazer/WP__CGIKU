@@ -53,6 +53,7 @@ Template Name: service
 
 <?include('module/sertificate.php');?>
 <?include('module/customers.php');?>
+<?include('module/contact-form.php');?>
 <? get_footer(); ?>
 
 

@@ -27,12 +27,16 @@ Template Name: geodez
 						wp_reset_query();
 					?>
 				</ul>
+				<div class="seo_text">
+          <?the_content();?>
+			</div>
 		</div>
 	</div>
 </div>
 
 <?include('module/sertificate.php');?>
 <?include('module/customers.php');?>
+<?include('module/contact-form.php');?>
 <? get_footer(); ?>
 
 

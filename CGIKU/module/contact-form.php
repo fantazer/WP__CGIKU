@@ -29,7 +29,7 @@
 								</label>
 							</div>
 							<div class="agree-row__text">Согласен с
-								<a href="#">условиями обработки персональных данных</a>
+								<a href="<?php echo get_template_directory_uri(); ?>/agreement.pdf">условиями обработки персональных данных</a>
 							</div>
 						</div>
 						<input class="form-footer-send" type="submit" value="Отправить заявку"/>
@@ -64,6 +64,14 @@
 							</div>
 							<div class="contact-text">info@cgiku.ru</div>
 						</div>
+						<div class="contact-row">
+									<div class="contact-icon">
+										<svg class="icon">
+											<use xlink:href="#metro"></use>
+										</svg>
+									</div>
+									<a class="contact-text contact-text--link" href="kontakty/">Как к нам проехать</a>
+								</div>
 					</div>
 				</div>
 			</div>

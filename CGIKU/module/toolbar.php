@@ -2,11 +2,11 @@
 	<?php get_search_form(); ?>
 
 	<div class="toolbar">
-		<div class="toolbar__title">Популярные услгуи</div>
+		<div class="toolbar__title">Популярные услуги</div>
     <?
     	$args = array(
-    	'cat'=> 2,
-      'order' => 'DESC'
+      'order' => 'DESC',
+      'tag'=> 'main-service',
     	);
     ?>
     <? query_posts($args);?>
