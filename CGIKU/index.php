@@ -14,9 +14,9 @@
 						<div class="main-service__title">Кадастровые работы</div>
 							<?php
 								$the_query = new WP_Query(array(
-									'cat'=> 23,
 									'meta_key'			=> 'order',
 									'orderby'			=> 'meta_value',
+									'tag'=> 'main-service--kadastr',
 									'order'				=> 'ASC'
 								));
 							?>
@@ -51,7 +51,7 @@
 						<div class="main-service__title">Геодезические работы</div>
 						<?php
 								$the_query = new WP_Query(array(
-									'cat'=> 25,
+									'tag'=> 'main-service--geo',
 									'meta_key'			=> 'order',
 									'orderby'			=> 'meta_value',
 									'order'				=> 'ASC'

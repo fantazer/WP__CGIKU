@@ -1,5 +1,12 @@
 <?
 
+if( function_exists('acf_add_options_page') ) {
+
+	acf_add_options_page();
+
+}
+
+
 add_filter('navigation_markup_template', 'my_navigation_markup_template');
 function my_navigation_markup_template() {
      return '

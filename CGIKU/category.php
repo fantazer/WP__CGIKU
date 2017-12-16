@@ -8,7 +8,7 @@
 	<div class="content">
     <? include('module/toolbar.php'); ?>
 		<div class="content__info">
-		    <h1>Категория</h1>
+		    <h1><?=single_cat_title(); ?></h1>
 			 <?
 			    $categories = get_the_category();
                 $category_id = $categories[0]->cat_ID;

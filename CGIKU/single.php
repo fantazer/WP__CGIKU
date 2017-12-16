@@ -1,5 +1,10 @@
 <?get_header();?>
 
+<!--display errors-->
+<? ini_set('display_errors','off'); ?>
+
+
+
 <? include('module/bread.php'); ?>
 
 <div class="main-cont">
@@ -137,6 +142,10 @@
                </div>
 	        <?php endif ?>
         <!-- for page about -->
+
+        <? if(CFS()->get('seo_text')){ ?>
+					<?include('module/advant--small.php');?>
+				<? } ?>
 
         <div class="seo_text">
          <?php echo CFS()->get('seo_text'); ?>

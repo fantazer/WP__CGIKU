@@ -66,10 +66,18 @@
 											</div>
 											<div class="top-line-loc-text">Каширская</div>
 										</div>
+										<div class="top-line-loc-el top-line-loc-el--mail">
+											<div class="top-line-loc-icon">
+												<svg class="icon">
+													<use xlink:href="#mail"></use>
+												</svg>
+											</div>
+											<div class="top-line-loc-text"><?=get_field('email', 'option');?></div>
+										</div>
 									</div>
 									<div class="nav-phone">
-										<a class="nav-phone-el" href="tel:<?=get_field('phone-1', 'option');?>"><?=get_field('phone-1', 'option');?></a>
-										<a class="nav-phone-el" href="tel:<?=get_field('phone-2', 'option');?>"><?=get_field('phone-2', 'option');?></a>
+										<!--<a class="nav-phone-el" href="tel:<?/*=get_field('phone-1', 'option');*/?>"><?/*=get_field('phone-1', 'option');*/?></a>-->
+										<a class="nav-phone-el" href="tel:<?=get_field('phone-2', 'option');?>"><?=get_field('phone-1', 'option');?></a>
 									</div>
 								</div>
 							</div>

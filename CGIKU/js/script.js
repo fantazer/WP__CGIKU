@@ -168,12 +168,13 @@ $(document).ready(function(){
 					submitHandler : function(form){
 						$.ajax({ //отправка ajax
 						            type: "POST",
-						            url: "/wp-content/themes/AAK/sender.php",
+						            url: "wp-content/themes/CGIKU/sender.php",
 						            data: $(form).serialize(),
 						            timeout: 3000,
 						          });
 							closeModal();
 							initModal("next");
+							console.log(data);
 							setTimeout(function(){
 										closeModal();
 										$(':input','.validate-form') //очитска формы от данных

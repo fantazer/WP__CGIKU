@@ -5,7 +5,7 @@
 			<div class="contact-form contact-form--footer">
 				<div class="main-form">
 					<div class="form-title">Оставьте вашу заявку</div>
-					<div class="form-title-sub">Мы свяжемся с вам в кратчайшее время</div>
+					<div class="form-title-sub">Мы свяжемся с Вами в кратчайшее время</div>
 					<form class="validate-form form--footer" action="javascript:void(null);">
 						<div class="input-row">
 							<input class="input" type="text" name="name" placeholder="Ваше имя"/>
@@ -46,7 +46,7 @@
 									<use xlink:href="#placeholder"></use>
 								</svg>
 							</div>
-							<div class="contact-text">Москва, 1-ый Варшавский проезд, д.1А, строен.9, офис 2.6</div>
+							<div class="contact-text">Москва, 1-ый Варшавский проезд, дом 1А, строение 9, офис 2.6</div>
 						</div>
 						<div class="contact-row">
 							<div class="contact-icon">

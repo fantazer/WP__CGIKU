@@ -23,8 +23,15 @@
 					<img class="logo--full" src="<?php echo get_template_directory_uri(); ?>/img/logo-dark.png" alt=""/>
 				</a>
 				<div class="footer-info__phone">
+
 					<a class="footer-info__phone" href="tel:<?=get_field('phone-1', 'option');?>"><?=get_field('phone-1', 'option');?></a>
-					<a class="footer-info__phone" href="tel:<?=get_field('phone-2', 'option');?>"><?=get_field('phone-2', 'option');?></a>
+
+				</div>
+				<div class="footer-mail">
+					<svg class="icon">
+						<use xlink:href="#mail"></use>
+					</svg>
+					<a href="mailto<?=get_field('email', 'option');?>" class="footer-info__mail"><?=get_field('email', 'option');?></a>
 				</div>
 			</div>
 		</div>
@@ -45,7 +52,6 @@
 <!--block footer end-->
 <script src="<?php echo get_template_directory_uri(); ?>/js/combined.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
-
 
 </body>
 </html>

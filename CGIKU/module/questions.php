@@ -16,7 +16,7 @@
 				    <div class="questions__el">
 						<div class="questions__el-wrap">
 							<div class="questions__name"><?=CFS()->get('name'); ?></div>
-							<div class="questions__title"><?=CFS()->get('Vopros'); ?>
+							<div class="questions__title"><?=CFS()->get('vopros'); ?>
 							</div>
 							<div class="questions__text">
 								<?=wp_trim_words( the_content(), 60, ' ...' );?>
@@ -46,7 +46,7 @@
 					 <? endwhile; ?>
 					 <? wp_reset_query();?>
 				</div>
-				<a class="questions-list__get" href="#">Все статьи</a>
+				<a class="questions-list__get" href="stati/">Все статьи</a>
 			</div>
 		</div>
 	</div>

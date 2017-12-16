@@ -48,7 +48,7 @@
 								<use xlink:href="#result"></use>
 							</svg>
 						</div>
-						<div class="advance-text">Более 1000 выполненных объектов по Москве и Московской области.</div>
+						<div class="advance-text">Более 5000 выполненных объектов по Москве и Московской области.</div>
 					</div>
 				</div>
 			</div>
